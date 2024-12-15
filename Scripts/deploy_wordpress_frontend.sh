@@ -19,7 +19,7 @@ chmod +x /tmp/wp-cli.phar
 mv /tmp/wp-cli.phar /usr/local/bin/wp
 
 # Borramos instalaciones previas en /var/www/html
-rm -rf $WORDPRESS_DIRECTORY*
+#rm -rf $WORDPRESS_DIRECTORY*
 
 # Descargamos el código fuente de WordPress 
 wp core download \
