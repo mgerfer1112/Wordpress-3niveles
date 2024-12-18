@@ -1,1 +1,1 @@
-$WORDPRESS_DIRECTORY $IP_FRONTEND_1(rw,sync,no_root_squash,no_subtree_check) $IP_FRONTEND_2(rw,sync,no_root_squash,no_subtree_check)
+WORDPRESS_DIRECTORY  Network(rw,sync,no_root_squash,no_subtree_check)
