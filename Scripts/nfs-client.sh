@@ -4,6 +4,7 @@ source .env
 apt update
 apt install nfs-common -y
 
+mkdir $WORDPRESS_DIRECTORY
 sudo mount $SERVER_IP:$WORDPRESS_DIRECTORY $WORDPRESS_DIRECTORY
 df -h
 
